@@ -5,7 +5,7 @@
 }
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Website.jpg);
-	height: 100vh;
+	height: 120vh;
 	background-size: cover;
 	background-position: center;
 }
@@ -50,7 +50,7 @@ ul li.active a{
 
 .title{
 	position: absolute;
-	top: 50%;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
@@ -60,7 +60,7 @@ ul li.active a{
 }
 .button{
 	position: absolute;
-	top: 65%;
+	top: 115%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
@@ -75,4 +75,12 @@ ul li.active a{
 .btn:hover{
 	background-color: #581845;
 	color: #6F7762;
+}
+.p{
+	position: relative;
+	text-decoration: none;
+	color: #179B5A;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
